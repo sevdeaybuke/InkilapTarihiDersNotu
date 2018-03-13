@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sevdeaybuke.inkilaptarihi.GirisFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="225dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/res"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_below="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="225dp">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/res2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r3"
+        android:layout_below="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="“Başarı, tüm ulusun azim ve inancıyla çabasını birleştirmesi sonucu kazanılabilir.”
+(1921, İzmir) (Atatürk’ün Söylev ve Demeçleri, Atatürk Araştırma Merkezi, CII, Ankara,1997, s80-81)"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

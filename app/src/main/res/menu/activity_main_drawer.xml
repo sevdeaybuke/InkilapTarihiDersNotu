@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/kavramlar"
+            android:icon="@drawable/ok"
+            android:title="İnkılap Tarihi Kavramları" />
+        <item
+            android:id="@+id/aydinlanma"
+            android:icon="@drawable/ok"
+            android:title="Aydınlanma Dönemi" />
+        <item
+            android:id="@+id/cöküs"
+            android:icon="@drawable/ok"
+            android:title="Osmanlı Devletinin Çöküş Nedenleri" />
+        <item
+            android:id="@+id/bir_mesrutiyet"
+            android:icon="@drawable/ok"
+            android:title="1.Meşrutiyetin İlanı" />
+        <item
+            android:id="@+id/iki_mesrutiyet"
+            android:icon="@drawable/ok"
+            android:title="2.Meşrutiyetin İlanı" />
+        <item
+            android:id="@+id/fikir_hareketleri"
+            android:icon="@drawable/ok"
+            android:title="Fikir Hareketleri" />
+        <item
+            android:id="@+id/trablusgarp"
+            android:icon="@drawable/ok"
+            android:title="Trablusgarp Savaşı" />
+        <item
+            android:id="@+id/usi_antlasmasi"
+            android:icon="@drawable/ok"
+            android:title="Uşi Antlaşması" />
+        <item
+            android:id="@+id/bir_balkan"
+            android:icon="@drawable/ok"
+            android:title="1.Balkan Savaşı" />
+        <item
+            android:id="@+id/iki_balkan"
+            android:icon="@drawable/ok"
+            android:title="2.Balkan Savaşı" />
+
+
+
+
+    </group>
+
+    <item android:title="Diğer Konular">
+        <menu>
+            <item
+                android:id="@+id/birinci_dünya"
+                android:icon="@drawable/ok"
+                android:title="1.Dünya Savaşı" />
+            <item
+                android:id="@+id/birdunya_osmanli"
+                android:icon="@drawable/ok"
+                android:title="1.Dünya Savaşında Osmanlı Devleti" />
+            <item
+                android:id="@+id/mondros"
+                android:icon="@drawable/ok"
+                android:title="Mondros Mütekaresi" />
+            <item
+                android:id="@+id/cemiyetler"
+                android:icon="@drawable/ok"
+                android:title="Cemiyetler" />
+            <item
+                android:id="@+id/isgaller"
+                android:icon="@drawable/ok"
+                android:title="İşgaller" />
+            <item
+                android:id="@+id/kurtulus_savasi"
+                android:icon="@drawable/ok"
+                android:title="Kurtuluş Savaşı" />
+            <item
+                android:id="@+id/tbmm"
+                android:icon="@drawable/ok"
+                android:title="TBMM'nin Açılması" />
+            <item
+                android:id="@+id/sevr"
+                android:icon="@drawable/ok"
+                android:title="Sevr Antlaşması" />
+            <item
+                android:id="@+id/düzenli_ordu"
+                android:icon="@drawable/ok"
+                android:title="Düzenli Ordunun Kurulması" />
+
+
+        </menu>
+    </item>
+
+</menu>
